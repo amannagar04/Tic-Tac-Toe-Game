@@ -1,13 +1,9 @@
-import Navbar from './components/Navbar'
-import Game from './components/game'
-import Gpt from './components/gpt'
+import Game from './components/Game'
 
 const App = () => {
   return (
     <>
-      {/* <Navbar /> */}
       <Game />
-      {/* <Gpt /> */}
     </>
   )
 }

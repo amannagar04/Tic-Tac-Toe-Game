@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import soundOn from '../assets/sound-on.png'
 import soundOff from '../assets/sound-off.png'
 
-const game = () => {
+const Game = () => {
 
   const [cells,setCells] = useState(Array(9).fill(null));
   const [currentPlayer,setCurrentPlayer] = useState('X');
@@ -92,4 +92,4 @@ const game = () => {
   )
 }
 
-export default game
+export default Game
