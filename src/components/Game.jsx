@@ -13,8 +13,8 @@ const Game = () => {
   const [gameOver,setGameOver] = useState(false);
   const [isMuted,setIsMuted] = useState(false);
 
-  const clickSound = new Audio("src/assets/click.mp3");
-  const winSound = new Audio("src/assets/win.mp3");
+  const clickSound = new Audio("/Tic-Tac-Toe-Game/click.mp3");
+  const winSound = new Audio("/Tic-Tac-Toe-Game/win.mp3");
 
   const handleClick = (index) => {
     if(cells[index] || gameOver) return;
